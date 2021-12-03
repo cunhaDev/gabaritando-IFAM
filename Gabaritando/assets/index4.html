@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Questionário</title>
+<script type="text/javascript" src="js/tempo.js"></script>
+<script type="text/javascript" src="js/logica4.js"></script>
+</head>
+<body  onload="iniciarDecrementoTempo()">
+<header class="container">
+		<h1 align="center">
+			<img src="img/logo.png" alt="IFAM - MANACAPURU">			
+		</h1>
+		<h2 align="center">PORTUGUÊS</h2>
+		<div style="color:#000000" align="left">
+		  <div  align="center">
+		      <img src="img/tempo.jpg" height="34" width="33">
+		      <span class="style8">Tempo restante para o término da prova: <span align="left" id="temporizador"></span></span>
+		      <h2 class="style8">NOTA:<span align="left" id="nota"></span></h2>	  
+		    </div>
+        </div>		
+</header>
+<form name="quest">
+	<table>
+		<tbody>
+			<tr>
+				<td colspan="2">
+		<h4> 1.&nbsp;&nbsp; </h4>
+		<input value="A" name="opcao1" type="radio">a) ;
+		<br><input value="B" name="opcao1" type="radio">b);
+		<br><input value="C" name="opcao1" type="radio">c) ;
+		<br><input value="D" name="opcao1" type="radio">d);
+		<br><br> 
+		<h4>2.&nbsp;&nbsp; </h4>
+		<input value="A" name="opcao2" type="radio">a);
+		<br><input value="B" name="opcao2" type="radio">b);
+		<br><input value="C" name="opcao2" type="radio">c);
+		<br><input value="D" name="opcao2" type="radio">d);
+		<br><br>
+					<h4>3.&nbsp;&nbsp;
+					</h4>
+					    <input value="A" name="opcao3" type="radio">a);
+					<br><input value="B" name="opcao3" type="radio">b);
+					<br><input value="C" name="opcao3" type="radio">c) ;
+					<br><input value="D" name="opcao3" type="radio">d);
+					<br><br>
+					<h4>4.&nbsp;&nbsp;
+					</h4>
+					    <input value="A" name="opcao4" type="radio">a);
+					<br><input value="B" name="opcao4" type="radio">b);
+					<br><input value="C" name="opcao4" type="radio">c);
+					<br><input value="D" name="opcao4" type="radio">d);
+					<h4>5.&nbsp;&nbsp;
+					</h4>
+					    <input value="A" name="opcao5" type="radio">a);
+					<br><input value="B" name="opcao5" type="radio">b);
+					<br><input value="C" name="opcao5" type="radio">c);
+					<br><input value="D" name="opcao5+" type="radio">d);
+					<br><br>
+					<h4>6.&nbsp;&nbsp;
+					</h4>
+					    <input value="A" name="opcao6" type="radio">a);
+					<br><input value="B" name="opcao6" type="radio">b);
+					<br><input value="C" name="opcao6" type="radio">c);
+					<br><input value="D" name="opcao6" type="radio">d);
+					<br><br>
+					<h4>7.&nbsp;&nbsp;
+					</h4>
+					    <input value="A" name="opcao7" type="radio">a);
+					<br><input value="B" name="opcao7" type="radio">b);
+					<br><input value="C" name="opcao7" type="radio">c);
+					<br><input value="D" name="opcao7" type="radio">d);
+					<br><br>
+					<h4>8.&nbsp;&nbsp;
+					</h4>
+					    <input value="A" name="opcao8" type="radio">a);
+					<br><input value="B" name="opcao8" type="radio">b);
+					<br><input value="C" name="opcao8" type="radio">c);
+					<br><input value="D" name="opcao8" type="radio">d);
+					<br><br>
+					<h4>9.&nbsp;&nbsp;
+					</h4>
+					    <input value="A" name="opcao9" type="radio">a);
+					<br><input value="B" name="opcao9" type="radio">b);
+					<br><input value="C" name="opcao9" type="radio">c);
+					<br><input value="D" name="opcao9" type="radio">d);
+					<br><br>
+					<h4>10.&nbsp;&nbsp;
+					    <input value="A" name="opcao10" type="radio">a);
+					<br><input value="B" name="opcao10" type="radio">b);
+					<br><input value="C" name="opcao10" type="radio">c);
+					<br><input value="D" name="opcao10" type="radio">d);
+					<br><br>
+
+			</td>
+			</tr>
+		</tbody>
+	</table>	
+</form>
+<button id="gravar" type="button" onclick="validar()">Finalizar Simulado</button>
+</body>
+</html>

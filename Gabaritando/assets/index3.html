@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Questionário</title>
+<script type="text/javascript" src="js/tempo.js"></script>
+<script type="text/javascript" src="js/logica3.js"></script>
+</head>
+<body  onload="iniciarDecrementoTempo()">
+<header class="container">
+		<h1 align="center">
+			<img src="img/logo.png" alt="IFAM - MANACAPURU">			
+		</h1>
+		<h2 align="center">RACIOCINIO LÓGICO</h2>
+		<div style="color:#000000" align="left">
+		  <div  align="center">
+		      <img src="img/tempo.jpg" height="34" width="33">
+		      <span class="style8">Tempo restante para o término da prova: <span align="left" id="temporizador"></span></span>
+		      <h2 class="style8">NOTA:<span align="left" id="nota"></span></h2>	  
+		    </div>
+        </div>		
+</header>
+<form name="quest">
+	<table>
+		<tbody>
+			<tr>
+				<td colspan="2">
+		<h4>1.&nbsp;&nbsp;Uma negação lógica para a afirmação "João é rico, ou Maria é pobre" é:</h4>
+		<br><input value="A" name="opcao1" type="radio">a)João não é rico, ou Maria não é pobre;
+		<br><input value="B" name="opcao1" type="radio">b)Se João é rico, então Maria é pobre;
+		<br><input value="C" name="opcao1" type="radio">c)João não é rico, e Maria não é pobre;
+		<br><input value="D" name="opcao1" type="radio">d)João é rico, e Maria não é pobre;
+		<br><br> 
+		<h4>2.&nbsp;&nbsp;A negação da frase "Marcos é jogador de futebol e Ana é ciclista" é:
+		</h4>
+			<input value="A" name="opcao2" type="radio">a)Marcos não é jogador de futebol e Ana não <br>
+		é ciclista;
+		<br><input value="B" name="opcao2" type="radio">b)Marcos não é jogador de futebol ou Ana não <br>
+		é ciclista;
+		<br><input value="C" name="opcao2" type="radio">c)Marcos não é jogador de futebol ou Ana<br>
+		é ciclista;
+		<br><input value="D" name="opcao2" type="radio">d)Marcos não é jogador de futebol se, somente se,<br>
+		Ana não é ciclista;
+		<br><br>
+					<h4>3.&nbsp;&nbsp;Ao negarmosa proposição composta "Comi carne e bebi suco", obtemos:
+					</h4>
+					    <input value="A" name="opcao3" type="radio">a)"não comi carne nem bebi suco";
+					<br><input value="B" name="opcao3" type="radio">b)"não comi carne, mas bebi suco";
+					<br><input value="C" name="opcao3" type="radio">c)"não comi carne ou não bebi suco";
+					<br><input value="D" name="opcao3" type="radio">d)"não comi carne ou bebi suco";
+					<br><br>
+					<h4>4.&nbsp;&nbsp;A negação da frase "O cachorro late ou a vacanão grunhe" é:
+					</h4>
+					    <input value="A" name="opcao4" type="radio">a)O cachorro não late e a vana não grunhe;
+					<br><input value="B" name="opcao4" type="radio">b)O cachorro não late ou a vana não grunhe;
+					<br><input value="C" name="opcao4" type="radio">c)O cachorro late se, somente se, a vaca não grunhe;
+					<br><input value="D" name="opcao4" type="radio">d)Se o cachorro não late, então a vaca não grunhe;
+					<br><br>
+					<h4>5.&nbsp;&nbsp;Considere a afirmação: "Mato a cobra e mostro o pau" a negação lógica<br>
+						dessa afirmação é:
+					</h4>
+					    <input value="A" name="opcao5" type="radio">a)não mato a cobra ou não mostro o pau;
+					<br><input value="B" name="opcao5" type="radio">b)não mato a cobra e não mostro o pau;
+					<br><input value="C" name="opcao5" type="radio">c)mato a cobra ou não mostro o pau;
+					<br><input value="D" name="opcao5" type="radio">d)não mato a cobra e mostro o pau;
+					<br><br>
+					<h4>6.&nbsp;&nbsp;A negação lógica da afirmação: "Corro bastante e não tomo chuva" é:
+					</h4>
+					    <input value="A" name="opcao6" type="radio">a)Não corro bastante e tomo chuva;
+					<br><input value="B" name="opcao6" type="radio">b)Tomo chuva ou não corro bastante;
+					<br><input value="C" name="opcao6" type="radio">c)Se eu corro bastante, então não tomo chuva;
+					<br><input value="D" name="opcao6" type="radio">d)Corro bastante ou tomo chuva;
+					<br><br>
+					<h4>7.&nbsp;&nbsp;Negar a sentença:"A ocorrência policial foi fotografada e documentada",<br>
+						é equivalente a sentença de alternativa:
+					</h4>
+					    <input value="A" name="opcao7" type="radio">a)A ocorrência policial não foi fotografada e não<br>
+					    foi documentada;
+					<br><input value="B" name="opcao7" type="radio">b)A ocorrência policial não foi fotografada,<br>
+					    foi documentada;
+					<br><input value="C" name="opcao7" type="radio">c)A ocorrência policial não foi fotografada ou não<br>
+					    foi documentada;
+					<br><input value="D" name="opcao7" type="radio">d)A ocorrência policial foi fotografada e documentada;
+					<br><br>
+					<h4>8.&nbsp;&nbsp;Qual a negação de "Marta é casada e Luiza é solteira":
+					</h4>
+					    <input value="A" name="opcao8" type="radio">a)Marta não é casada e Luiza é solteira;
+					<br><input value="B" name="opcao8" type="radio">b)Luiza é solteira se Marta é casada;
+					<br><input value="C" name="opcao8" type="radio">c)Marta não é casada ou Luiza não é solteira;
+					<br><input value="D" name="opcao8" type="radio">d)Marta é casada e Luiza não é solteira;
+					<br><br>
+					<h4>9.&nbsp;&nbsp;Se não é verdadeiro que: "Carlos não conseguiu atingir a média e Augusto comprou<br>
+						 um novo caderno", então:
+					</h4>
+					    <input value="A" name="opcao9" type="radio">a)Carlos conseguiu atingir a média e <br>
+					    Augusto não comprou um novo caderno;
+					<br><input value="B" name="opcao9" type="radio">b)Carlos conseguiu atingir a média ou<br>
+					    Augusto não comprou um novo caderno;
+					<br><input value="C" name="opcao9" type="radio">c)Carlos não conseguiu atingir a média e <br>
+					    Augusto comprou um novo caderno;
+					<br><input value="D" name="opcao9" type="radio">d)Carlos conseguiu atingir a média e <br>
+					    Augusto comprou um novo caderno;
+					<br><br>
+					<h4>10.&nbsp;&nbsp;A negação da frase "Ele não é artista, nem jogador de futebol" é<br>
+						equivalente a:
+					</h4>
+					    <input value="A" name="opcao10" type="radio">a)ele é artista ou jogador de futebol;
+					<br><input value="B" name="opcao10" type="radio">b)ele é artista ou não é jogador de futebol;
+					<br><input value="C" name="opcao10" type="radio">c)não é certo que ele seja artista ou jogador<br>
+					de futebol;
+					<br><input value="D" name="opcao10" type="radio">d)ele não é artista ou não é jogador de futebol;
+					<br><br>
+
+			</td>
+			</tr>
+		</tbody>
+	</table>	
+</form>
+<button id="gravar" type="button" onclick="validar()">Finalizar Simulado</button>
+</body>
+</html>
