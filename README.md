@@ -5,3 +5,6 @@ The Application has a Timer, Close functions and the app, validation of right or
 
 # Certificate
 ![WhatsApp Image 2021-12-03 at 12 30 54](https://user-images.githubusercontent.com/63728220/144630310-57b465cd-1f21-4c7a-b123-70163be7a34d.jpeg)
+
+# Developed with
+ Java, Android Native, Gradle, Html, Css, Javascript, Android Studio, Web View and others.
